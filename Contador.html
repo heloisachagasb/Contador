@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="img/contas.ico" type="image/x-icon">
+    <title>Contador</title>
+</head>
+
+<body>
+    <section class="caixa">
+        <h1 class="titulo">Vamos contar</h1>
+
+        <div>
+            <p>Início:
+                <input type="number" name="txtano" id="txti" min="0">
+            </p>
+            <p>Fim:
+                <input type="number" name="txtf" id="txtf" min="0">
+            </p>
+            <p>Passo:
+                <input type="number" name="txtp" id="txtp" min="0">
+            </p>
+            <p>
+                <input class="botao" value="Contar" type="submit" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="resposta">
+            Preparando a contagem...
+        </div>
+
+    </section>
+</body>
+
+</html>
